@@ -1,4 +1,4 @@
-import Layout from "@/components/Layout";
+import Layout from "@/components/layout";
 import MyContext from "@/provider/search-provider";
 import "@/styles/globals.css";
 import { ToastContainer } from "react-toastify";
