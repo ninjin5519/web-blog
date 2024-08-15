@@ -6,7 +6,7 @@ import { MyContext, SearchContext } from "@/provider/search-provider";
 import Loader from "../loader";
 
 const PostCards = () => {
-  const { searchValue, findPost, isLoading } = useContext(MyContext);
+  const { findPost, isLoading } = useContext(MyContext);
 
   return (
     <>
